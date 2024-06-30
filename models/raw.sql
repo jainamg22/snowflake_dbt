@@ -1,3 +1,3 @@
-SELECT * 
+SELECT city , count(*) as ttl
 FROM DB_SUPERSTORE.SC_TXNS.SUPERSTORE
-WHERE Country = 'United States'
+group by city
