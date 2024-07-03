@@ -1,0 +1,13 @@
+sources:
+  - name: "kaggle_data"
+    database: "DB_SUPERSTORE"
+    schema: "SC_TXNS"
+    tables:
+      - name: "SUPERSTORE"
+
+models:
+  - name: "raw_superstore"
+    config:
+      materialized: "table"
+  - name: "prdt_details"
+    

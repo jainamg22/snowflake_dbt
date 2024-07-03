@@ -1,2 +1,3 @@
+
 SELECT * 
-FROM DB_SUPERSTORE.SC_TXNS.SUPERSTORE
+FROM    {{source("kaggle_data" ,"SUPERSTORE")}}

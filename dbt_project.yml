@@ -1,2 +1,7 @@
 name: "prac_1"
 model-paths: ["models"]
+models:
+  materialized: "table"
+
+seed-paths: ["seeds"]
+

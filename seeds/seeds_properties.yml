@@ -1,0 +1,7 @@
+seeds:
+  - name: "country_code"
+    config:
+     column_types:
+       state: varchar(20)
+       abbreviation: varchar(2)
+     full_refresh: true
