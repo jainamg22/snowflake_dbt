@@ -1,2 +1,3 @@
-SELECT * 
-FROM DB_SUPERSTORE.SC_TXNS.SUPERSTORE
+
+SELECT distinct(CATEGORY) , 'Sub-category' , PRODUCT_NAME
+FROM    {{source("kaggle_data" ,"SUPERSTORE")}}
