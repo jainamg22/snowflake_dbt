@@ -9,3 +9,5 @@ models:
   - name: "raw_superstore"
     config:
       materialized: "table"
+  - name: "prdt_details"
+    

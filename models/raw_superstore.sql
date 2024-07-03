@@ -1,3 +1,3 @@
 
-SELECT distinct(CATEGORY) , 'Sub-category' , PRODUCT_NAME
+SELECT * 
 FROM    {{source("kaggle_data" ,"SUPERSTORE")}}
